@@ -9,7 +9,7 @@ st.image('JLU.png')
 
 
 st.header('ML model for predicting thermal conductivity of bentonite')
-st.subheader('The used ML model is eXtreme Gradient Boosting Regression (XGB)')
+st.markdown('The used ML model is eXtreme Gradient Boosting Regression (XGB)')
 
 model = joblib.load('ML model.joblib')
 ss = joblib.load('StandardScaler.joblib')
