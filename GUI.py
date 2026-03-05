@@ -9,6 +9,7 @@ st.image('JLU.png')
 
 
 st.header('ML model for predicting thermal conductivity of bentonite')
+st.caption('The used ML model is XGB')
 
 model = joblib.load('ML model.joblib')
 ss = joblib.load('StandardScaler.joblib')
